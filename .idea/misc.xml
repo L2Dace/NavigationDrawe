@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/activity_main.xml" value="0.2129115006412997" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/activity_sign_in.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_about.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_message.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_profile.xml" value="0.21205643437366395" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_setting.xml" value="0.2129115006412997" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/nav_header.xml" value="0.2129115006412997" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/menu/drawer_menu.xml" value="0.2129115006412997" />
       </map>
