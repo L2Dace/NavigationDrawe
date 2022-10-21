@@ -5,11 +5,23 @@
       <map>
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/activity_main.xml" value="0.2129115006412997" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/activity_sign_in.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/content_main.xml" value="0.21205643437366395" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_about.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_manga.xml" value="0.21021528070915999" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_message.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_novel.xml" value="0.21021528070915999" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_profile.xml" value="0.21205643437366395" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_setting.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/fragment_story.xml" value="0.21021528070915999" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/item_book.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/item_category.xml" value="0.21021528070915999" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/manga_item.xml" value="0.15940685820203893" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/mange_item.xml" value="0.15940685820203893" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/nav_header.xml" value="0.2129115006412997" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/novel_item.xml" value="0.19881806669480795" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/setting_item.xml" value="0.15940685820203893" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/layout/story_item.xml" value="0.15940685820203893" />
+        <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/menu/bottom_menu.xml" value="0.21205643437366395" />
         <entry key="..\:/JavaAndroid/sidemenu/app/src/main/res/menu/drawer_menu.xml" value="0.2129115006412997" />
       </map>
     </option>

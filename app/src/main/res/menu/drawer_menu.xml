@@ -8,10 +8,10 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_person"
             android:title="Profile"/>
-        <item
-            android:id="@+id/nav_message"
-            android:icon="@drawable/mail24dp"
-            android:title="Message" />
+<!--        <item-->
+<!--            android:id="@+id/nav_message"-->
+<!--            android:icon="@drawable/mail24dp"-->
+<!--            android:title="Message" />-->
         <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/ic_setting"

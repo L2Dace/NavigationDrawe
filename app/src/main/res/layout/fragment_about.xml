@@ -2,14 +2,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#057DCD">
+    android:background="#FFFFFF">
 
+    <ImageView
+        android:id="@+id/peace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/peace"
+        android:layout_centerInParent="true"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="profile about
-"
+        android:text="Phiên bản app alpha 1.0"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/peace"
         android:textSize="30sp"
         android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="copyright by Le Duc Duy"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"/>
 
 </RelativeLayout>

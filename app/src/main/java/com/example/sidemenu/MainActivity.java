@@ -11,11 +11,15 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
+    private BottomNavigationView bottomNavigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,9 +37,33 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
+
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.action_book_1:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                                new NovelFragment()).commit();
+                        break;
+                    case R.id.action_book_2:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                                new StoryFragment()).commit();
+                        break;
+                    case R.id.action_book_3:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                                new MangaFragment()).commit();
+                        break;
+                }
+
+                return true;
+            }
+        });
+
         if (savedInstanceState == null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_profile);
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new NovelFragment()).commit();
+            navigationView.setCheckedItem(R.id.action_book_1);
         }
 
     }
@@ -46,10 +74,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ProfileFragment()).commit();
                 break;
-            case R.id.nav_message:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new MessageFragment()).commit();
-                break;
+//            case R.id.nav_message:
+//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+//                        new MessageFragment()).commit();
+//                break;
             case R.id.nav_setting:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new SettingFragment()).commit();

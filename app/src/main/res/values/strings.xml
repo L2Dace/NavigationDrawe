@@ -8,5 +8,9 @@
     <string name="menu_message">Message</string>
     <string name="menu_setting">Setting</string>
     <string name="menu_about">About</string>
+    
+    <string name="menu_book_1">Tiểu thuyết</string>
+    <string name="menu_book_2">Truyện ngắn</string>
+    <string name="menu_book_3">Truyện tranh</string>
 
 </resources>
